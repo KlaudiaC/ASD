@@ -1,0 +1,49 @@
+ 5
+   greckie  4  0 
+alfa   20      0
+beta   42      0
+delta  28      0
+gamma  30      0
+   litery   4  100 
+Alfa   20       50
+Beta   42       30
+Gamma  28      200
+delta  30      300
+   miasta     7       0
+     Gdansk      462  0
+     Krakow      761  0
+     Lodz        701  0
+     Poznan      542  0
+     Szczecin    406  0
+     Warszawa   1744  0
+     Wroclaw     636  0
+   rzeki     12    121
+ DNIEPR    2201   5160
+ DNIESTR   1362    690
+ DON       1870   4220
+ DUNAJ     2860   7960
+ DZWINA    1022    880
+ LABA      1091   1480
+ LOARA     1020   1200
+ REN       1232   1850
+ TAG       1038    810
+ URAL      2428   2370
+ WISLA     1047   1940
+ WOLGA     3531  13800
+   wojewodztwa   16         0 
+   dolnoslaskie      2914   0
+   kujawskopom.      2096   0
+   lodzkie           2525   0
+   lubelskie         2166   0
+   lubuskie          1023   0
+   malopolskie       3354   0
+   mazowieckie       5302   0
+   opolskie          1010   0
+   podkarpackie      2130   0
+   podlaskie         1199   0
+   pomorskie         2290   0
+   slaskie           4616   0
+   swietokrzyskie    1274   0
+   warminskomaz.     1451   0
+   wielkopolskie     3462   0
+   zachodniopom.     1721   0

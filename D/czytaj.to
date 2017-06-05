@@ -1,0 +1,50 @@
+Przegl¹daj¹c zestaw danych zwróæ uwagê, ¿e w ka¿dym 
+zestawie wystêpuj¹ linie sk³adaj¹ce siê z trzech 
+elementów: nazwy i dwóch liczb ca³kowitych.
+Nazwa w pierwszej linii jest pomijana, pierwsza
+liczba w tej linii to n=liczba kolejnych linii,
+druga liczba to q[0]. W kolejnych liniach s¹:
+nazawa[i], p[i], q[i]. Ka¿da nazwa to ci¹g liter
+ze zbioru {A,B,...,Z,a,b,...z}. W nazwie nie mog¹
+wystepowaæ inne znaki (polskie litery, cyfry, spacje,
+podkreœlenia, kropki itp.). Znaki przed pierwsz¹
+liter¹ s¹ pomijane, znak spoza zbioru liter po
+kilku kolejnych literach koñczy nazwê. Podobnie jest 
+z ci¹gami cyfr reprezentuj¹cymi liczby ca³kowite.
+Przyk³ad dana linia: £om¿a=32,67km^2, 62.779mieszk.
+    zawiera 4 nazwy:  om a      km          mieszk
+       oraz 5 liczb:       32 67   2  62 779
+   nazwa i 2 liczby:  om   32 67
+Nale¿y za³o¿yæ, ¿e nazwy w kolejnych liniach s¹
+uporz¹dkowane leksykograficznie zgodnie z ASCII
+czyli: alfa < beta < delta < gamma  bo a<b<d<g
+oraz:  Alfa < Beta < Gamma < Delta  bo A<B<G<d .
+Mo¿na za³o¿yæ, ¿e: 1<n<999, ¿e dla ka¿dego i: 
+1 <= p[i] <= 999999 ,  0 <= q[i] <= 999999 .
+Wynik koñcowy jest liczb¹ zmiennopozycyjn¹.
+W jêzyku JAVA mo¿na skorzystaæ z biblioteki 
+java.util.Locale   oraz drukowaæ na przyk³ad tak:
+double D = (double) ( <WYRA¯ENIE> );
+System.out.format(Locale.ENGLISH,"%.4f%n", D);
+Przyk³adowy zestaw danych:
+rzeczy     4    1
+drukarka  10    2
+laptop    10    3
+plotter   10    4
+smartfon  10    5
+Da optymalne drzewo BST:
+     .*        3 *  1 =  3
+   ..drukarka  3 * 10 = 30
+   | .*        3 *  2 =  6
+ ..laptop      2 * 10 = 20
+ | .*          2 *  3 =  6
+.plotter       1 * 10 = 10
+ | .*          2 *  4 =  8
+ ..smartfon    2 * 10 = 20     c = 2.0(54)
+   .*          2 *  5 = 10       = 2.05454...
+Wynik: 
+.....drukarka
+...laptop
+.plotter
+...smartfon
+2.0545
